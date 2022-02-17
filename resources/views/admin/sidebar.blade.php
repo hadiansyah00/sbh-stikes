@@ -118,15 +118,16 @@
                     <p>Kurikulum</p>
                   </a>
                 </li>
+
                 <li class="nav-item">
-                    <a href="/prodi" class="nav-link">
+                    <a href="/krs" class="nav-link">
                       <i class="fas fa-building nav-icon"></i>
-                      <p>Program Studi</p>
+                      <p>Rencana Studi</p>
                     </a>
                   </li> <li class="nav-item">
                     <a href="/jurusan" class="nav-link">
                       <i class="fas fa-user-md nav-icon"></i>
-                      <p>Jurusan</p>
+                      <p>Program Studi</p>
                     </a>
                   </li> <li class="nav-item">
                     <a href="/matakuliah" class="nav-link">
@@ -162,7 +163,7 @@
                 <a href="/user" class="nav-link ">
                   <i class="nav-icon far fa-cogs"></i>
                   <p>
-                    Pengaturan User
+                    {{-- Pengaturan User --}}
                   </p>
                 </a>
             </li>

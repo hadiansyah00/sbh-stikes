@@ -12,6 +12,7 @@ class Mahasiswa extends Authenticatable
     protected $table = "mahasiswa";
     protected $fillable = [
         'nim',
+        'username',
         'nama_mahasiswa',
         'kode_jurusan',
         'email',
@@ -25,15 +26,15 @@ class Mahasiswa extends Authenticatable
         'agama', //
         'kelas', //
         'tahun_masuk',
-        'semester_aktif' //
+        'semester_aktif', //
         // 'sekolah_asal',  //
         // 'nisn',
-        // 'status'
-        // 'nama_ayah', //
-        // 'nama_ibu', //
-        // 'alama_ortu', //
-        // 'kerja_ortu', //
-        // 'no_hp_ortu', //
+        'status',
+        'nama_ayah', //
+        'nama_ibu', //
+        'alama_ortu', //
+        'kerja_ortu', //
+        'no_hp_ortu' //
 
     ];
 

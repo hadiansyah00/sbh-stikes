@@ -1,4 +1,10 @@
 <div class="form-group row">
+    <label class="col-md-2 col-form-label text-md-right">Username</label>
+    <div class="col-md-6 ">
+        {{ Form::text('username',null,['class'=>'form-control','placeholder'=>'Username'])}}
+    </div>
+</div>
+<div class="form-group row">
     <label class="col-md-2 col-form-label text-md-right">Nama Mahasiswa</label>
     <div class="col-md-6 ">
         {{ Form::text('nama_mahasiswa',null,['class'=>'form-control','placeholder'=>'Nama Lengkap'])}}
